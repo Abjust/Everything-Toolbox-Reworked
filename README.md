@@ -3,7 +3,7 @@
 </div>
 <h1 align="center">万物工具箱手机版</h1>
 <h4 align="center">一款可爱而帅气的工具箱~</h4>
-<h4 align="center">支持 Android 4.1 以上版本</h4>
+<h4 align="center">支持 Android 4.0 以上版本</h4>
 <div align="center">
 
 [![GitHub Release](https://img.shields.io/github/v/release/ELFTS/wwgjx?label=正式版)](https://github.com/ELFTS/wwgjx/releases/latest)
