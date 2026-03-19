@@ -54,41 +54,6 @@
 - 🎨 Material Design 界面设计
 - 📱 支持 Android 4.0+ (API 14+)
 
-## 🚀 安装
-- 下载后点击APK文件安装
-
-## ♻️ 如何卸载
-<details>
-  <summary>Android 4.4</summary>
-    
-1. **点击设置**
-
-2. **点击"控制面板/控制台“**
-<img width="1024" height="768" alt="PixPin_2025-08-13_19-09-36" src="https://github.com/user-attachments/assets/291eacfe-22af-4e07-af0b-bdabe9c98474" />
-
-3. **点击"添加/删除程序（添加/删除程式）"**
-<img width="1024" height="768" alt="PixPin_2025-08-13_19-11-09" src="https://github.com/user-attachments/assets/67b9d2a4-e398-4e50-bbf0-df5022685fe3" />
-
-4. **找到"万物工具箱"**
-<img width="1024" height="768" alt="PixPin_2025-08-13_19-15-40" src="https://github.com/user-attachments/assets/6a3d9ad0-cc3e-487e-92d4-9213583cefd3" />
-
-5. **点击"更改/删除（变更/删除）"**
-<img width="1024" height="768" alt="PixPin_2025-08-13_19-17-44" src="https://github.com/user-attachments/assets/c9d364e0-c474-4b16-98eb-cfa0b2895a27" />
-
-6. **点击"确定"**
-<img width="1024" height="768" alt="PixPin_2025-08-13_19-19-40" src="https://github.com/user-attachments/assets/cdfad7f1-5176-44be-b26e-5f4be7ba6ee3" />
-
-7. **等待卸载完成**
-8. **点击"完成"**
-<img width="1024" height="768" alt="PixPin_2025-08-13_19-22-40" src="https://github.com/user-attachments/assets/0f38cf4f-a40b-4da3-9543-dbc446804e9f" />
-
-</details>
-
-<details>
-  <summary>Windows 8.1</summary>
-    
-</details>
-
 ## 💴 赞助
 
 如果这个项目对你有帮助，欢迎赞助支持！
