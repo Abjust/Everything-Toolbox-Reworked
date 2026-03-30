@@ -42,8 +42,9 @@ private fun formatAxisLabel(value: Float, unit: String): String = when (unit) {
     "%" -> "${"%.0f".format(value)}%"
     "MB" -> if (value >= 1024f) "${"%.1f".format(value / 1024f)} GB" else "${"%.0f".format(value)} MB"
     "MHz" -> if (value >= 1000f) "${"%.2f".format(value / 1000f)} GHz" else "${"%.0f".format(value)} MHz"
+    "MB/s" -> if (value >= 1024f) "${"%.1f".format(value / 1024f)} GB/s" else "${"%.1f".format(value)} MB/s"
+    "Mbps" -> if (value >= 1000f) "${"%.2f".format(value / 1000f)} Gbps" else "${"%.1f".format(value)} Mbps"
     else -> when {
-        value >= 1000f -> "${"%.1f".format(value / 1000f)} G${unit.removePrefix("G")}"
         value >= 1f -> "${"%.2f".format(value)} $unit"
         else -> "${"%.3f".format(value)} $unit"
     }
@@ -53,6 +54,8 @@ private fun formatValue(value: Float, unit: String): String = when (unit) {
     "%" -> "${"%.1f".format(value)}%"
     "MB" -> if (value >= 1024f) "${"%.2f".format(value / 1024f)} GB" else "${"%.1f".format(value)} MB"
     "MHz" -> if (value >= 1000f) "${"%.3f".format(value / 1000f)} GHz" else "${"%.0f".format(value)} MHz"
+    "MB/s" -> if (value >= 1024f) "${"%.2f".format(value / 1024f)} GB/s" else "${"%.2f".format(value)} MB/s"
+    "Mbps" -> if (value >= 1000f) "${"%.2f".format(value / 1000f)} Gbps" else "${"%.2f".format(value)} Mbps"
     else -> "${"%.2f".format(value)} $unit"
 }
 
